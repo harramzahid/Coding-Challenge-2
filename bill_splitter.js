@@ -2,9 +2,12 @@
 
 //Task 1 calculating the tip based on bill size
 // 
-var Bill = [X]
-if (Bill = 50 <= X <= 300) { let tip = Bill*0.15;}
-else if ( Bill = X > 300 ) { let tip = Bill*0.2; }
+let Bill = 100
+let tip;
+if (Bill 50 <= && <= 300) { 
+    let tip = Bill*0.15;}
+else if ( Bill  > 300 ) { 
+    let tip = Bill*0.2; }
 console.log("tip", tip);
 
 // Task  2 Output Details
