@@ -2,7 +2,7 @@
 
 //Task 1 calculating the tip based on bill size
 // 
-let Bill = 100
+let Bill = 100 // we are using an example scenario here//
 let tip;
 if (Bill 50 <= && <= 300) { 
     let tip = Bill*0.15;}
