@@ -39,6 +39,7 @@ const Bill = [125, 555, 44]
 const tips = Bill.map(bill => tip(bill));
 const totalbill = Bill.map(bill => totalbill(bill));
 const totalbills = Bills.map((bill, index) => bill + tips[index]);
+
 console.log("tip:", tip);
 console.log("totalbill:", totalbill);
 
