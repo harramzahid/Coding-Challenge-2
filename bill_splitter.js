@@ -11,9 +11,9 @@ else if ( Bill  > 300 ) {
 console.log("tip", tip);
 
 // Task  2 Output Details
-let totalbill = tip += Bill
-console.log("tip += Bill", totalbill);
-console.log (`Thank you for your order, your bill was $$"Bill", the tip was $$"tip" and so, the total value is $$"totalbill" `);
+let totalbill = tip + Bill
+console.log("tip + Bill", totalbill);
+console.log (`Thank you for your order, your bill was $${Bill}, the tip was $${tip} and so, the total value is $${totalbill} `);
 
 // Task 3 Create a function
 // Function Declaration - Calculate Tip 
